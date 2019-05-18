@@ -61,15 +61,15 @@ A side not: Not really relevant but I included in this respository some piece of
 ![statimage](/image/boxplot_verb.jpeg)
 
 # References:
-Frequency distribution tagged text: https://www.nltk.org/book/ch01.html
-FreqDist documentation: https://kite.com/python/docs/nltk.FreqDist
-Categorizing and Tagging Words: https://www.nltk.org/book/ch05.html
-Universal POS tags: https://universaldependencies.org/u/pos/all.html#al-u-pos/SYM and https://universaldependencies.org/u/feat/index.html
-TFidfVectorizer: http://www.davidsbatista.net/blog/2018/02/28/TfidfVectorizer/ 
-https://www.geeksforgeeks.org/python-lemmatization-with-nltk/
-https://www.nltk.org/book/ch02.html#ref-raw-access
-https://www.bogotobogo.com/python/NLTK/tf_idf_with_scikit-learn_NLTK.php 
-https://stackoverflow.com/questions/46597476/how-to-print-tf-idf-scores-matrix-in-sklearn-in-python
-https://stackoverflow.com/questions/46580932/calculate-tf-idf-using-sklearn-for-n-grams-in-python
-https://sklearn.org/modules/feature_extraction.html#text-feature-extraction
-https://sklearn.org/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feature_extraction.text.TfidfVectorizer
+Frequency distribution tagged text: https://www.nltk.org/book/ch01.html <br>
+FreqDist documentation: https://kite.com/python/docs/nltk.FreqDist <br>
+Categorizing and Tagging Words: https://www.nltk.org/book/ch05.html <br>
+Universal POS tags: https://universaldependencies.org/u/pos/all.html#al-u-pos/SYM and https://universaldependencies.org/u/feat/index.html <br>
+TFidfVectorizer: http://www.davidsbatista.net/blog/2018/02/28/TfidfVectorizer/ <br>
+https://www.geeksforgeeks.org/python-lemmatization-with-nltk/ <br>
+https://www.nltk.org/book/ch02.html#ref-raw-access <br>
+https://www.bogotobogo.com/python/NLTK/tf_idf_with_scikit-learn_NLTK.php <br>
+https://stackoverflow.com/questions/46597476/how-to-print-tf-idf-scores-matrix-in-sklearn-in-python <br>
+https://stackoverflow.com/questions/46580932/calculate-tf-idf-using-sklearn-for-n-grams-in-python <br>
+https://sklearn.org/modules/feature_extraction.html#text-feature-extraction <br>
+https://sklearn.org/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html#sklearn.feature_extraction.text.TfidfVectorizer <br>
