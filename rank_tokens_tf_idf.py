@@ -64,9 +64,8 @@ for word in non_romance_tagged:
     non_romance_docs.append(lemmatizer.lemmatize(word.lower(), pos='v'))
 
 """
-As can be seen, only one verbs are extracted, tagged as 'VERB' in Brown, so when lemmatizer is employed, I can
-specify the pos is 'v', meaning verb with confidence. This step can be generalized, in case multiple type of tags
-are extracted,
+As can be seen, only verbs are extracted, tagged as 'VERB' in Brown, so when lemmatizer is employed, I can
+specify the pos is 'v' with confidence. This step can be generalized, in case multiple tags are extracted,
 
 romance_tagged = [(word, tag) for word, tag in brown.tagged_words(tagset="universal", categories='romance') 
                   if tag == 'VERB' OR tag == 'NOUN']
@@ -75,7 +74,7 @@ romance_tagged = [(word, tag) for word, tag in brown.tagged_words(tagset="univer
 
 def get_wordnet_pos(universal_tag):
     '''Binding the built-in pos tag of Brown to Wordnet tag.
-    Reference: https://coling.epfl.ch/TP/TP-tagging.html
+    From: https://coling.epfl.ch/TP/TP-tagging.html
     '''
     if universal_tag == 'VERB':
         return wordnet.VERB
@@ -90,9 +89,8 @@ and then specify accordingly in lemmatize(), for example:
 for word, tag in non_romance_tagged:
     non_romance_docs.append(lemmatizer.lemmatize(word.lower(), pos=get_wordnet_pos(universal_tag)))
 
-The get_wordnet_pos() with translate the correct pos, which is important for lemmatizer to work, so it can transform
-abandonning to abandon, for example; otherwise, it treats everything as noun and abandonning stays the same, although
-it can actually be the case - that abandonning is actually the noun in the context. 
+The get_wordnet_pos() will get correct pos, which is important for lemmatizer to work. Then lemmatizer can transform
+'abandonning' to 'abandon', for example; otherwise, it treats everything as noun and 'abandonning' stays the same. 
 """
 
 # Create corpus space with clean tokens inside each document: convert to lowercase and remove all punctuations + stop-words
