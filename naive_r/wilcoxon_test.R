@@ -64,13 +64,18 @@ scale_x_discrete(labels = c('Different genres','Same genre'))
 
 # ------------------------------------------------------
 # Perform Unpaired Two-Samples Wilcoxon Test
-test_verb <- wilcox.test(raw_wide$same_genre, raw_wide$different_genres, na.rm = TRUE, alternative = "two.sided")
+test_verb <- wilcox.test(raw_wide$same_genre, raw_wide$different_genres, na.rm = TRUE, alternative = "two.sided", conf.int=TRUE)
 test_verb
 # output:
 # 	Wilcoxon rank sum test with continuity correction
 # data:  raw_wide$same_genre and raw_wide$different_genres
 # W = 3140100, p-value = 0.1223
 # alternative hypothesis: true location shift is not equal to 0
+# 95 percent confidence interval:
+# -1.194256e-05  9.957071e-03
+# sample estimates:
+# difference in location 
+#           2.158856e-05
 
 # References:
 # http://www.sthda.com/english/wiki/unpaired-two-samples-wilcoxon-test-in-r
