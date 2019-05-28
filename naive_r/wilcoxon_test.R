@@ -82,3 +82,6 @@ test_verb
 # https://www.stat.auckland.ac.nz/~wild/ChanceEnc/Ch10.wilcoxon.pdf 
 # https://stats.idre.ucla.edu/spss/whatstat/what-statistical-analysis-should-i-usestatistical-analyses-using-spss/
 # http://www.sthda.com/english/wiki/paired-samples-t-test-in-r
+# https://stats.stackexchange.com/questions/59170/nmds-and-variance-explained-by-vector-fitting
+# https://statisticsbyjim.com/regression/interpret-r-squared-regression/
+# https://cran.r-project.org/web/packages/vegan/vignettes/FAQ-vegan.html
